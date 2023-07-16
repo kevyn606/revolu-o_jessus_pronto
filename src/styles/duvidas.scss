@@ -1,0 +1,12 @@
+@use 'variaveiss';
+
+.duvidas{
+    padding: 7.6vw;
+    background-color:variaveiss.$corSecundario; 
+
+    h3{
+        text-align: center;
+        margin-bottom: 2vw;
+    }
+    
+}

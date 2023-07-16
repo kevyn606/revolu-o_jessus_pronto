@@ -1,0 +1,41 @@
+@use 'variaveiss';
+
+.sobre{
+    padding: 7.6vw;
+    min-height: 80vh;
+
+    p{
+        text-align: center;
+        
+    }
+
+    h3{
+        text-align: center;
+        margin-top: 4vw;
+    }
+
+    .sobre_conteudo_carrosels{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        margin-top: 2vw;
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+            gap: 2vw;
+        }
+        
+        .sobre_conteudo_carrosel{
+            max-width: 100%;
+        }
+    
+        .borda{
+            border: solid 8px white;
+            border-radius: 7px;
+            -webkit-box-shadow: 0px 0px 47px -4px rgba(115,115,115,1);
+            -moz-box-shadow: 0px 0px 47px -4px rgba(115,115,115,1);
+            box-shadow: 0px 0px 47px -4px rgba(115,115,115,1);
+        }
+    
+    }
+
+    }

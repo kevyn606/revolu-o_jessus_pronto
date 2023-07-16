@@ -1,0 +1,36 @@
+@use 'variaveiss';
+
+
+.hero {
+    padding: 7.6vw;
+    min-height: 80vh;
+    background-image: url(../images/bg-home-entertainment.jpg);
+    background-size: cover;
+
+    @media (max-width: 768px) {
+      min-height: 40vh;
+
+      .hero_conteudo_butao{
+         display: flex;
+         flex-direction: column;
+         gap: 3vw;
+      }
+  }
+
+    &_conteudo{
+         max-width: 500px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         
+         h3{
+            text-align: center;
+            padding: 1vw;
+         }
+
+         img{
+            width: 100%;
+         }
+    }
+
+}
